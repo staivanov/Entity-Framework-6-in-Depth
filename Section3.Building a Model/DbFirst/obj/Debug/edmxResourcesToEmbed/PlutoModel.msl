@@ -12,12 +12,11 @@
     <EntitySetMapping Name="Courses1">
       <EntityTypeMapping TypeName="PlutoModel.Course">
         <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="FullPrice" ColumnName="FullPrice" />
           <ScalarProperty Name="CourseID" ColumnName="CourseID" />
           <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
           <ScalarProperty Name="Title" ColumnName="Title" />
           <ScalarProperty Name="Description" ColumnName="Description" />
-          <ScalarProperty Name="Price" ColumnName="Price" />
-          <ScalarProperty Name="LevelString" ColumnName="LevelString" />
           <ScalarProperty Name="Level" ColumnName="Level" />
         </MappingFragment>
       </EntityTypeMapping>

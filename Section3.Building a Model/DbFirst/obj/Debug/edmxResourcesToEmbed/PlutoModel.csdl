@@ -16,12 +16,11 @@
     <Property Name="AuthorID" Type="Int32" Nullable="false" />
     <Property Name="Title" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Description" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" Nullable="false" />
-    <Property Name="Price" Type="Int16" Nullable="false" />
-    <Property Name="LevelString" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
     <Property Name="Level" Type="Byte" Nullable="false" />
     <NavigationProperty Name="Author" Relationship="Self.FK_Courses_Authors" FromRole="Courses" ToRole="Authors" />
     <NavigationProperty Name="CourseSections" Relationship="Self.FK_CourseSections_Courses" FromRole="Courses" ToRole="CourseSections" />
     <NavigationProperty Name="Tags" Relationship="Self.CourseTags" FromRole="Courses" ToRole="Tags" />
+    <Property Name="FullPrice" Type="Int16" Nullable="false" />
   </EntityType>
   <EntityType Name="CourseSection">
     <Key>
