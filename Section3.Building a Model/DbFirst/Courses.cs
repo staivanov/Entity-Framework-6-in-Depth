@@ -12,10 +12,10 @@ namespace DbFirst
     using System;
     using System.Collections.Generic;
     
-    public partial class Course
+    public partial class Courses
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Course()
+        public Courses()
         {
             this.CourseSections = new HashSet<CourseSection>();
             this.Tags = new HashSet<Tag>();

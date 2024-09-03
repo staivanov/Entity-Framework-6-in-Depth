@@ -10,14 +10,14 @@
 namespace DbFirst
 {
     using System;
-    using System.Collections.Generic;
     
-    public partial class CourseSection
+    public partial class GetCourses_Result
     {
-        public int SectionID { get; set; }
         public int CourseID { get; set; }
+        public int AuthorID { get; set; }
         public string Title { get; set; }
-    
-        public virtual Courses Cours { get; set; }
+        public string Description { get; set; }
+        public short FullPrice { get; set; }
+        public short Level { get; set; }
     }
 }

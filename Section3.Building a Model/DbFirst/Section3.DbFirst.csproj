@@ -55,10 +55,16 @@
     <Compile Include="Author.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Course.cs">
+    <Compile Include="Courses.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="CourseSection.cs">
+      <DependentUpon>PlutoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="funcGetAuthorCourses_Result.cs">
+      <DependentUpon>PlutoModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCourses_Result.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
     <Compile Include="PlutoModel.Context.cs">

@@ -114,6 +114,41 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="DeleteCourse" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CourseID" Type="int" Mode="In" />
+  </Function>
+  <Function Name="funcGetAuthorCourses" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AuthorID" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="CourseID" Type="int" Nullable="false" />
+          <Property Name="AuthorID" Type="int" Nullable="false" />
+          <Property Name="Title" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="8000" Nullable="false" />
+          <Property Name="Price" Type="smallint" Nullable="false" />
+          <Property Name="LevelString" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Level" Type="tinyint" Nullable="false" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <Function Name="GetCourses" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="InsertCourse" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="AuthorID" Type="int" Mode="In" />
+    <Parameter Name="Title" Type="varchar" Mode="In" />
+    <Parameter Name="Description" Type="varchar" Mode="In" />
+    <Parameter Name="Price" Type="smallint" Mode="In" />
+    <Parameter Name="LevelString" Type="varchar" Mode="In" />
+    <Parameter Name="Level" Type="tinyint" Mode="In" />
+  </Function>
+  <Function Name="UpdateCourse" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CourseID" Type="int" Mode="In" />
+    <Parameter Name="Title" Type="varchar" Mode="In" />
+    <Parameter Name="Description" Type="varchar" Mode="In" />
+    <Parameter Name="LevelString" Type="varchar" Mode="In" />
+    <Parameter Name="Level" Type="tinyint" Mode="In" />
+  </Function>
   <EntityContainer Name="PlutoModelStoreContainer">
     <EntitySet Name="Authors" EntityType="Self.Authors" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
