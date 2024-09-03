@@ -1,0 +1,12 @@
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe.config
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.exe
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\DatabaseFirstDemo.pdb
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.dll
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.xml
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.AssemblyReference.cache
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.csproj.CoreCompileInputs.cache
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\Database.98A950CA.Up2Date
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.exe
+P:\EF Core\EF Deep Dive\Section2. Getting started\DatabaseFirstDemo\DatabaseFirstDemo\obj\Debug\DatabaseFirstDemo.pdb
