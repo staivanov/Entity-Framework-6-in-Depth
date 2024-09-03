@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Section2. Getting started\\DatabaseFirstDemo\\",
+  "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\section2. getting started\\databasefirstdemo\\databasefirstdemo\\blogmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\blogmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\section2. getting started\\databasefirstdemo\\databasefirstdemo\\blogmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\blogmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\section2.getting started\\databasefirstdemo\\databasefirstdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,27 +67,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlogModel.Context.cs",
-              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Section2. Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\BlogModel.Context.cs",
-              "RelativeDocumentMoniker": "DatabaseFirstDemo\\BlogModel.Context.cs",
-              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Section2. Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\BlogModel.Context.cs",
-              "RelativeToolTip": "DatabaseFirstDemo\\BlogModel.Context.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstDemo\\Program.cs",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Program.cs*",
+              "RelativeToolTip": "DatabaseFirstDemo\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T14:08:15.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlogModel.Context.tt",
-              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Section2. Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\BlogModel.Context.tt",
-              "RelativeDocumentMoniker": "DatabaseFirstDemo\\BlogModel.Context.tt",
-              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Section2. Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\BlogModel.Context.tt",
-              "RelativeToolTip": "DatabaseFirstDemo\\BlogModel.Context.tt",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-03T14:08:10.802Z",
+              "WhenOpened": "2024-09-03T15:02:34.809Z",
               "EditorCaption": ""
             }
           ]

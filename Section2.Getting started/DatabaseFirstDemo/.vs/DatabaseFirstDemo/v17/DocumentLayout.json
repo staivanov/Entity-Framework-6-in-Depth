@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Section2. Getting started\\DatabaseFirstDemo\\",
-  "Documents": [],
+  "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\section2.getting started\\databasefirstdemo\\databasefirstdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 350,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +63,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstDemo\\Program.cs",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Program.cs",
+              "RelativeToolTip": "DatabaseFirstDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T15:02:34.809Z",
+              "EditorCaption": ""
             }
           ]
         },
