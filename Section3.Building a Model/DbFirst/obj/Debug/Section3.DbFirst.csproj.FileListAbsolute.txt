@@ -1,0 +1,12 @@
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\DbFirst.exe.config
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\DbFirst.exe
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\DbFirst.pdb
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\EntityFramework.dll
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\EntityFramework.SqlServer.dll
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\EntityFramework.xml
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\bin\Debug\EntityFramework.SqlServer.xml
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\obj\Debug\Section3.DbFirst.csproj.AssemblyReference.cache
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\obj\Debug\Section3.DbFirst.csproj.CoreCompileInputs.cache
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\obj\Debug\Section3.F0E51487.Up2Date
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\obj\Debug\DbFirst.exe
+P:\EF Core\EF Deep Dive\Section3.Building a Model\DbFirst\obj\Debug\DbFirst.pdb
