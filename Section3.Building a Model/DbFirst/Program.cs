@@ -12,12 +12,11 @@ namespace DbFirst
 
         public static void Main()
         {
-           ObjectResult<GetCourses_Result> courses = _context.GetCourses();
+            Course course = new Course();
+            course.Level = CourseLevel.Beginner;
 
-            foreach (GetCourses_Result course in courses)
-            {
-                WriteLine(course.Title);
-            }
+
+
         }
     }
 }

@@ -28,7 +28,7 @@ namespace DbFirst
         }
     
         public virtual DbSet<Author> Authors { get; set; }
-        public virtual DbSet<Courses> Courses { get; set; }
+        public virtual DbSet<Course> Courses1 { get; set; }
         public virtual DbSet<CourseSection> CourseSections { get; set; }
         public virtual DbSet<Post> Posts { get; set; }
         public virtual DbSet<Tag> Tags { get; set; }
@@ -50,8 +50,7 @@ namespace DbFirst
                 new ObjectParameter("AuthorID", authorID) :
                 new ObjectParameter("AuthorID", typeof(int));
     
-            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<funcGetAuthorCourses_Result>("[PlutoDbContext].[funcGetAuthorCourses](@AuthorID)",
-                authorIDParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.CreateQuery<funcGetAuthorCourses_Result>("[PlutoDbContext].[funcGetAuthorCourses](@AuthorID)", authorIDParameter);
         }
     
         public virtual ObjectResult<GetCourses_Result> GetCourses()
@@ -59,10 +58,7 @@ namespace DbFirst
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetCourses_Result>("GetCourses");
         }
     
-        public virtual int InsertCourse
-            (Nullable<int> authorID, string title,
-            string description, Nullable<short> price,
-            string levelString, Nullable<byte> level)
+        public virtual int InsertCourse(Nullable<int> authorID, string title, string description, Nullable<short> price, string levelString, Nullable<byte> level)
         {
             var authorIDParameter = authorID.HasValue ?
                 new ObjectParameter("AuthorID", authorID) :
@@ -88,15 +84,10 @@ namespace DbFirst
                 new ObjectParameter("Level", level) :
                 new ObjectParameter("Level", typeof(byte));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction(
-                "InsertCourse", authorIDParameter,
-                titleParameter, descriptionParameter, 
-                priceParameter, levelStringParameter, levelParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("InsertCourse", authorIDParameter, titleParameter, descriptionParameter, priceParameter, levelStringParameter, levelParameter);
         }
     
-        public virtual int UpdateCourse(Nullable<int> courseID,
-            string title, string description,
-            string levelString, Nullable<byte> level)
+        public virtual int UpdateCourse(Nullable<int> courseID, string title, string description, string levelString, Nullable<byte> level)
         {
             var courseIDParameter = courseID.HasValue ?
                 new ObjectParameter("CourseID", courseID) :
@@ -118,10 +109,7 @@ namespace DbFirst
                 new ObjectParameter("Level", level) :
                 new ObjectParameter("Level", typeof(byte));
     
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction(
-                "UpdateCourse", courseIDParameter,
-                titleParameter, descriptionParameter,
-                levelStringParameter, levelParameter);
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("UpdateCourse", courseIDParameter, titleParameter, descriptionParameter, levelStringParameter, levelParameter);
         }
     }
 }
