@@ -1,7 +1,8 @@
-﻿
+﻿using CodeFirst;
+using System;
 using System.Collections.Generic;
 
-namespace CodeFirst
+namespace Section4.BuildingAModelUsingCodeFirst
 {
     public class Course
     {

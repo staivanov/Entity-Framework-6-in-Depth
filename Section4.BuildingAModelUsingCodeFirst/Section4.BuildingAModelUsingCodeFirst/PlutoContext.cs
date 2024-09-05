@@ -1,4 +1,7 @@
-﻿namespace CodeFirst
+﻿using Section4.BuildingAModelUsingCodeFirst;
+using System.Data.Entity;
+
+namespace CodeFirst
 {
     public class PlutoContext : DbContext
     {

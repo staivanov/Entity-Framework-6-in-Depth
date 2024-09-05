@@ -1,7 +1,6 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace CodeFirst
+namespace Section4.BuildingAModelUsingCodeFirst
 {
     public class Author
     {
