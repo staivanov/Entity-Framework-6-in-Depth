@@ -15,7 +15,8 @@
                         Name = c.String(),
                     })
                 .PrimaryKey(t => t.Id);
-            
+
+    
             CreateTable(
                 "dbo.Courses",
                 c => new

@@ -10,3 +10,6 @@ P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsing
 P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsingCodeFirst\Section4.BuildingAModelUsingCodeFirst\obj\Debug\Section4.74FB6B54.Up2Date
 P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsingCodeFirst\Section4.BuildingAModelUsingCodeFirst\obj\Debug\Section4.BuildingAModelUsingCodeFirst.exe
 P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsingCodeFirst\Section4.BuildingAModelUsingCodeFirst\obj\Debug\Section4.BuildingAModelUsingCodeFirst.pdb
+P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsingCodeFirst\Section4.BuildingAModelUsingCodeFirst\obj\Debug\Section4.BuildingAModelUsingCodeFirst.Migrations.initialModel.resources
+P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsingCodeFirst\Section4.BuildingAModelUsingCodeFirst\obj\Debug\Section4.BuildingAModelUsingCodeFirst.csproj.GenerateResource.cache
+P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section4.BuildingAModelUsingCodeFirst\Section4.BuildingAModelUsingCodeFirst\obj\Debug\Section4.BuildingAModelUsingCodeFirst.Migrations.AddCategories.resources
