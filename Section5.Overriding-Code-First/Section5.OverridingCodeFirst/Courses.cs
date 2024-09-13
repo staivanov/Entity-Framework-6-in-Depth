@@ -1,0 +1,32 @@
+namespace Section4.OverridingCodeFirst
+{
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    [Table("Courses")]
+    public partial class Courses
+    {
+        public Courses()
+        {
+            Tags = new HashSet<Tags>();
+        }
+
+        public int Id { get; set; }
+
+        public string Title { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+
+        public int Level { get; set; }
+
+        public float FullPrice { get; set; }
+
+        public int? Author_Id { get; set; }
+
+        public virtual Authors Authors { get; set; }
+
+        public virtual ICollection<Tags> Tags { get; set; }
+    }
+}
