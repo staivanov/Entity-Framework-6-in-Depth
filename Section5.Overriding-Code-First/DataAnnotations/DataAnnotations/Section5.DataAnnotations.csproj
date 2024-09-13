@@ -59,6 +59,10 @@
     <Compile Include="Migrations\202409130449080_initialModule.Designer.cs">
       <DependentUpon>202409130449080_initialModule.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409130644509_EmptyMigration.cs" />
+    <Compile Include="Migrations\202409130644509_EmptyMigration.Designer.cs">
+      <DependentUpon>202409130644509_EmptyMigration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
     <Compile Include="Program.cs" />
@@ -74,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202409130449080_initialModule.resx">
       <DependentUpon>202409130449080_initialModule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409130644509_EmptyMigration.resx">
+      <DependentUpon>202409130644509_EmptyMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

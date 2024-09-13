@@ -2,14 +2,14 @@
 {
     using System.Data.Entity.Migrations;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Section4.OverridingCodeFirst.PlutoModel>
+    internal sealed class Configuration : DbMigrationsConfiguration<PlutoModel>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Section4.OverridingCodeFirst.PlutoModel context)
+        protected override void Seed(PlutoModel context)
         {
             //  This method will be called after migrating to the latest version.
 
