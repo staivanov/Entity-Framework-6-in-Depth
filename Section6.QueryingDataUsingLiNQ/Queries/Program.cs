@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System;
+using System.Data.Entity;
+using System.Linq;
 using static System.Console;
 
 namespace Queries
@@ -65,15 +67,30 @@ namespace Queries
             IQueryable<IGrouping<int, Course>> groups = _context.Courses
                     .GroupBy(c => c.Level);
 
-            foreach (var group in groups)
-            {
-                WriteLine("Key: " + group.Key);
+            //foreach (var group in groups)
+            //{
+            //    WriteLine("Key: " + group.Key);
 
-                foreach (var course in group)
-                {
-                    WriteLine("\t" + course.Name);
-                }
+            //    foreach (var course in group)
+            //    {
+            //        WriteLine("\t" + course.Name);
+            //    }
+            //}
+
+            //Partitioning
+            IQueryable<Course> takenCourses = _context.Courses.Skip(2).Take(2);
+
+            //Deffered execution
+            DbSet<Course> courses = _context.Courses;
+            IQueryable<Course> filteredCourses = courses.Where(c => c.Level == courseLevel);
+            IOrderedQueryable<Course> sorted = filteredCourses.OrderBy(c => c.Name);
+
+            foreach (Course course in courses)
+            {
+                WriteLine(course.Name);
             }
+
+
         }
     }
 }
