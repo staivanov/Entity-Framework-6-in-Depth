@@ -11,9 +11,17 @@ namespace DataAnnotations
             : base("name=PlutoContext")
         {
         }
-
+        /// <summary>
+        /// Table Authors in the Database Pluto_FluentAPI.
+        /// </summary>
         public virtual DbSet<Author> Authors { get; set; }
+        /// <summary>
+        /// Table Courses in the Database Pluto_FluentAPI.
+        /// </summary>
         public virtual DbSet<Course> Courses { get; set; }
+        /// <summary>
+        /// Table Tags in the Database Pluto_FluentAPI.
+        /// </summary>
         public virtual DbSet<Tag> Tags { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -37,7 +45,19 @@ namespace DataAnnotations
             modelBuilder.Entity<Course>()
                 .HasMany(t => t.Tags)
                 .WithMany(c => c.Courses)
-                .Map(m => m.ToTable("CourseTags"));
+                .Map(m =>
+                    {
+                        m.ToTable("CourseTags");
+                        m.MapLeftKey("Course_Id");
+                        m.MapRightKey("Tag_Id");
+                    }
+                );
+
+            modelBuilder.Entity<Course>()
+              .HasRequired(c => c.Cover)
+              .WithRequiredPrincipal(c => c.Course);
+
+
 
             base.OnModelCreating(modelBuilder);
         }

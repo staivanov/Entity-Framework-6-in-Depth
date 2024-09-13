@@ -13,3 +13,5 @@ P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section5.Overriding-Code-Fir
 P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section5.Overriding-Code-First\FluentAPI\FluentAPI\obj\Debug\FluentAPI.Migrations.init.resources
 P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section5.Overriding-Code-First\FluentAPI\FluentAPI\obj\Debug\Section5.FluentAPI.csproj.GenerateResource.cache
 P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section5.Overriding-Code-First\FluentAPI\FluentAPI\obj\Debug\FluentAPI.Migrations.InitialMigration.resources
+P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section5.Overriding-Code-First\FluentAPI\FluentAPI\obj\Debug\FluentAPI.Migrations.AddedOneToOne.resources
+P:\EF Core\EF Deep Dive\Entity-Framework-6-in-Depth\Section5.Overriding-Code-First\FluentAPI\FluentAPI\obj\Debug\FluentAPI.Migrations.ManyToManyFix.resources

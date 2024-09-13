@@ -2,7 +2,7 @@
 {
     using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class InitialMigration : DbMigration
     {
         public override void Up()
@@ -17,7 +17,7 @@
             AddPrimaryKey("dbo.CourseTags", new[] { "Course_Id", "Tag_Id" });
             CreateIndex("dbo.Courses", "AuthorId");
         }
-        
+
         public override void Down()
         {
             DropIndex("dbo.Courses", new[] { "AuthorId" });

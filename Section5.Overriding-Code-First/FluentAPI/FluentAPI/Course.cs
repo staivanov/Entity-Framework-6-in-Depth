@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using FluentAPI;
+using System.Collections.Generic;
 
 namespace DataAnnotations
 {
@@ -52,5 +53,10 @@ namespace DataAnnotations
         /// Gets or sets the tags of the course.
         /// </summary>
         public virtual ICollection<Tag> Tags { get; set; }
+
+        /// <summary>
+        /// Gets or sets the cover of the course.
+        /// </summary>
+        public Cover Cover { get; set; }
     }
 }

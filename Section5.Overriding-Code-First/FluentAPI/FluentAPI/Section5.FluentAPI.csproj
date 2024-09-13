@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Author.cs" />
     <Compile Include="Course.cs" />
+    <Compile Include="Cover.cs" />
     <Compile Include="Migrations\202409130735153_init.cs" />
     <Compile Include="Migrations\202409130735153_init.Designer.cs">
       <DependentUpon>202409130735153_init.cs</DependentUpon>
@@ -62,6 +63,14 @@
     <Compile Include="Migrations\202409130843575_InitialMigration.cs" />
     <Compile Include="Migrations\202409130843575_InitialMigration.Designer.cs">
       <DependentUpon>202409130843575_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409130918174_AddedOneToOne.cs" />
+    <Compile Include="Migrations\202409130918174_AddedOneToOne.Designer.cs">
+      <DependentUpon>202409130918174_AddedOneToOne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202409130950173_ManyToManyFix.cs" />
+    <Compile Include="Migrations\202409130950173_ManyToManyFix.Designer.cs">
+      <DependentUpon>202409130950173_ManyToManyFix.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PlutoContext.cs" />
@@ -81,6 +90,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202409130843575_InitialMigration.resx">
       <DependentUpon>202409130843575_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409130918174_AddedOneToOne.resx">
+      <DependentUpon>202409130918174_AddedOneToOne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202409130950173_ManyToManyFix.resx">
+      <DependentUpon>202409130950173_ManyToManyFix.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
