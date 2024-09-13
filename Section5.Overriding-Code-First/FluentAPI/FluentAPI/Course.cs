@@ -42,6 +42,12 @@ namespace DataAnnotations
         /// </summary>
         public virtual Author Author { get; set; }
 
+
+        /// <summary>
+        /// Gets or sets the author foreign key.
+        /// </summary>
+        public int AuthorId { get; set; }
+
         /// <summary>
         /// Gets or sets the tags of the course.
         /// </summary>
