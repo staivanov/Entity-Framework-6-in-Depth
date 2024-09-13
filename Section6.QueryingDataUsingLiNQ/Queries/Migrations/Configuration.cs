@@ -15,7 +15,7 @@ namespace Queries.Migrations
         protected override void Seed(PlutoContext context)
         {
             #region Add Tags
-            var tags = new Dictionary<string, Tag>
+            Dictionary<string, Tag> tags = new Dictionary<string, Tag>
             {
                 {"c#", new Tag {Id = 1, Name = "c#"}},
                 {"angularjs", new Tag {Id = 2, Name = "angularjs"}},
@@ -25,12 +25,14 @@ namespace Queries.Migrations
                 {"linq", new Tag {Id = 6, Name = "linq"}},
             };
 
-            foreach (var tag in tags.Values)
+            foreach (Tag tag in tags.Values)
+            {
                 context.Tags.AddOrUpdate(t => t.Id, tag);
+            }
             #endregion
 
             #region Add Authors
-            var authors = new List<Author>
+            List<Author> authors = new List<Author>
             {
                 new Author
                 {
@@ -59,12 +61,14 @@ namespace Queries.Migrations
                 }
             };
 
-            foreach (var author in authors)
+            foreach (Author author in authors)
+            {
                 context.Authors.AddOrUpdate(a => a.Id, author);
+            }
             #endregion
 
             #region Add Courses
-            var courses = new List<Course>
+            List<Course> courses = new List<Course>
             {
                 new Course
                 {
@@ -186,8 +190,10 @@ namespace Queries.Migrations
                 }
             };
 
-            foreach (var course in courses)
+            foreach (Course course in courses)
+            {
                 context.Courses.AddOrUpdate(c => c.Id, course);
+            }
             #endregion
         }
     }
