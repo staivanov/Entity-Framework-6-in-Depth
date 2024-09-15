@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using static System.Console;
 
 namespace Section7.LoadingRelatedObjects
@@ -9,8 +10,24 @@ namespace Section7.LoadingRelatedObjects
 
         public static void Main()
         {
-            PrintAllTagsForCourseId(5);
+            PrintEveryCourseWithHisAuthorName();
 
+
+            
+
+        }
+
+        /// <summary>
+        /// Print every course in the given db with his author name.
+        /// </summary>
+        private static void PrintEveryCourseWithHisAuthorName()
+        {   //N+1 problem demo.
+            List<Course> courses = _plutoContext.Courses.ToList();
+
+            foreach (Course course in courses)
+            {
+                WriteLine($"{course.Name} by {course.Author.Name}");
+            }
         }
 
 
