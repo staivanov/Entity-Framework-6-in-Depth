@@ -14,9 +14,15 @@ namespace DbFirst
     using System.Data.Entity.Infrastructure;
     using System.Data.Entity.Core.Objects;
     using System.Linq;
-    
+
+    /// <summary>
+    /// Class <c>PlutoDbContext</c> is an object representing the database "Pluto".
+    /// </summary>
     public partial class PlutoDbContext : DbContext
     {
+        /// <summary>
+        /// Create a new instance of the PlutoDbContext.
+        /// </summary>
         public PlutoDbContext()
             : base("name=PlutoDbContext")
         {
@@ -26,12 +32,30 @@ namespace DbFirst
         {
             throw new UnintentionalCodeFirstException();
         }
-    
+
+        /// <summary>
+        /// Table Authors in the database "Pluto".
+        /// </summary>
         public virtual DbSet<Author> Authors { get; set; }
+        /// <summary>
+        /// Table Courses in the database "Pluto".
+        /// </summary>
         public virtual DbSet<Course> Courses1 { get; set; }
+        /// <summary>
+        /// Table CourseSections in the database "Pluto".
+        /// </summary>
         public virtual DbSet<CourseSection> CourseSections { get; set; }
+        /// <summary>
+        /// Table Posts in the database "Pluto".
+        /// </summary>
         public virtual DbSet<Post> Posts { get; set; }
+        /// <summary>
+        /// Table Tags in the database "Pluto".
+        /// </summary>
         public virtual DbSet<Tag> Tags { get; set; }
+        /// <summary>
+        /// Table Users in the database "Pluto".
+        /// </summary>
         public virtual DbSet<tblUser> tblUsers { get; set; }
     
         public virtual int DeleteCourse(Nullable<int> courseID)

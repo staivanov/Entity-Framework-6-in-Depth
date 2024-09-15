@@ -11,6 +11,9 @@ namespace DbFirst
 {
     using System;
     
+    /// <summary>
+    /// Different level of courses.
+    /// </summary>
     public enum CourseLevel : byte
     {
         Beginner = 1,

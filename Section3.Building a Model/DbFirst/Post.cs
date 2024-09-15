@@ -11,12 +11,27 @@ namespace DbFirst
 {
     using System;
     using System.Collections.Generic;
-    
+
+    /// <summary>
+    /// Class <c>Post</c> create a new object with additional descriptive properties. 
+    /// </summary>
     public partial class Post
     {
+        /// <summary>
+        /// Gets or sets the Post Id.
+        /// </summary>
         public int PostID { get; set; }
-        public System.DateTime DatePublished { get; set; }
+        /// <summary>
+        /// Gets or sets the Date Published time.
+        /// </summary>
+        public DateTime DatePublished { get; set; }
+        /// <summary>
+        /// Gets or sets the Title.
+        /// </summary>
         public string Title { get; set; }
+        /// <summary>
+        /// Gets or sets the Body.
+        /// </summary>
         public string Body { get; set; }
     }
 }

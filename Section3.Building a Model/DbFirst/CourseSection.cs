@@ -11,13 +11,27 @@ namespace DbFirst
 {
     using System;
     using System.Collections.Generic;
-    
+
+    /// <summary>
+    /// Class <c>CourseSection</c> create a new object with additional descriptive properties. 
+    /// </summary>
     public partial class CourseSection
     {
+        /// <summary>
+        /// Gets or sets the Section Id.
+        /// </summary>
         public int SectionID { get; set; }
+        /// <summary>
+        /// Gets or sets the Course Id.
+        /// </summary>
         public int CourseID { get; set; }
-        public string Title { get; set; }
-    
-        public virtual Course Cours { get; set; }
+        /// <summary>
+        /// Gets or sets the Title.
+        /// </summary>
+        public string Title { get; set; }   
+        /// <summary>
+        /// Gets or sets the Course.
+        /// </summary>
+        public virtual Course Course { get; set; }
     }
 }

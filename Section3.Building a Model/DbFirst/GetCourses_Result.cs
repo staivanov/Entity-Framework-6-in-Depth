@@ -13,11 +13,29 @@ namespace DbFirst
     
     public partial class GetCourses_Result
     {
+        /// <summary>
+        /// Gets or sets the Cours Id.
+        /// </summary>
         public int CourseID { get; set; }
+        /// <summary>
+        /// Gets or sets the Author Id.
+        /// </summary>
         public int AuthorID { get; set; }
+        /// <summary>
+        /// Gets or sets the Title.
+        /// </summary>
         public string Title { get; set; }
+        /// <summary>
+        /// Gets or sets the Description.
+        /// </summary>
         public string Description { get; set; }
+        /// <summary>
+        /// Gets or sets the Full Price.
+        /// </summary>
         public short FullPrice { get; set; }
+        /// <summary>
+        /// Gets or sets the Level.
+        /// </summary>
         public short Level { get; set; }
     }
 }

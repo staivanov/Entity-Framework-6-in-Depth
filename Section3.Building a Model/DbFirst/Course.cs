@@ -11,26 +11,57 @@ namespace DbFirst
 {
     using System;
     using System.Collections.Generic;
-    
+
+    /// <summary>
+    /// Class <c>Course</c> create a new object with additional descriptive properties. 
+    /// </summary>
     public partial class Course
     {
+        /// <summary>
+        /// Create a new instance of a Course object with CourseSection and Tags.
+        /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Course()
         {
             this.CourseSections = new HashSet<CourseSection>();
             this.Tags = new HashSet<Tag>();
         }
-    
+        /// <summary>
+        /// Gets or sets the Course Id.
+        /// </summary>
         public int CourseID { get; set; }
+        /// <summary>
+        /// Gets or sets the Author Id.
+        /// </summary>
         public int AuthorID { get; set; }
+        /// <summary>
+        /// Gets or sets the Title.
+        /// </summary>
         public string Title { get; set; }
+        /// <summary>
+        /// Gets or sets the Description.
+        /// </summary>
         public string Description { get; set; }
-        public DbFirst.Level Level { get; set; }
-        public short FullPrice { get; set; }
-    
+        /// <summary>
+        /// Gets or sets the Level.
+        /// </summary>
+        public Nullable<byte> Level { get; set; }
+        /// <summary>
+        /// Gets or sets the Full Price.
+        /// </summary>
+        public short FullPrice { get; set; } 
+        /// <summary>
+        /// Gets or sets the Author
+        /// </summary>
         public virtual Author Author { get; set; }
+        /// <summary>
+        /// Gets or sets the Course Section.
+        /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CourseSection> CourseSections { get; set; }
+        /// <summary>
+        /// Gets or sets the Tags.
+        /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Tag> Tags { get; set; }
     }

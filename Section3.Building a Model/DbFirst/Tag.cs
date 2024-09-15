@@ -11,18 +11,33 @@ namespace DbFirst
 {
     using System;
     using System.Collections.Generic;
-    
+
+    /// <summary>
+    /// Class <c>Tag</c> create a new object with additional descriptive properties. 
+    /// </summary>
     public partial class Tag
     {
+        /// <summary>
+        /// Create a new instance of a Tag object with Courses.
+        /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Tag()
         {
             this.Courses = new HashSet<Course>();
         }
     
+        /// <summary>
+        /// Gets or sets the Tag Id.
+        /// </summary>
         public int TagID { get; set; }
+        /// <summary>
+        /// Gets or sets the Name.
+        /// </summary>
         public string Name { get; set; }
     
+        /// <summary>
+        /// Gets or sets Courses.
+        /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Course> Courses { get; set; }
     }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity.Core.Objects;
-using System.Linq;
-using static System.Console;
-
-namespace DbFirst
+﻿namespace DbFirst
 {
     public class Program
     {
@@ -13,10 +7,7 @@ namespace DbFirst
         public static void Main()
         {
             Course course = new Course();
-            course.Level = CourseLevel.Beginner;
-
-
-
+            course.Level = (byte?)CourseLevel.Beginner;
         }
     }
 }
