@@ -10,11 +10,21 @@ namespace Section7.LoadingRelatedObjects
 
         public static void Main()
         {
-            PrintEveryCourseWithHisAuthorName();
+            PrintEveryCourseWithHisAuthorNameEagerLoading();           
+        }
 
+        /// <summary>
+        /// Print every course in the given db with his author name with Eager Loading.
+        /// </summary>
+        private static void PrintEveryCourseWithHisAuthorNameEagerLoading()
+        {
+            string author = "Author";
+            List<Course> courses = _plutoContext.Courses.Include(author).ToList();
 
-            
-
+            foreach (Course course in courses)
+            {
+                WriteLine($"{course.Name} by {course.Author.Name}");
+            }
         }
 
         /// <summary>
@@ -29,7 +39,6 @@ namespace Section7.LoadingRelatedObjects
                 WriteLine($"{course.Name} by {course.Author.Name}");
             }
         }
-
 
         /// <summary>
         /// Print all tags for certain course by his id.

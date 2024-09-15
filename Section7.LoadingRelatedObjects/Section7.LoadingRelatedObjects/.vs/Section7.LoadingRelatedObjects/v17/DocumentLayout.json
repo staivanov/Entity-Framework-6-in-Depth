@@ -5,22 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|solutionrelative:section7.loadingrelatedobjects\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\plutomodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|solutionrelative:section7.loadingrelatedobjects\\plutomodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\plutomodel.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|solutionrelative:section7.loadingrelatedobjects\\plutomodel.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\plutomodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|solutionrelative:section7.loadingrelatedobjects\\plutomodel.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\section7.loadingrelatedobjects\\plutomodel.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{6580E600-263D-4839-B264-F89EED794958}|Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects.csproj|solutionrelative:section7.loadingrelatedobjects\\plutomodel.edmx.diagram||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 570,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,67 +66,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlutoModel.Context.tt",
-              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.Context.tt",
-              "RelativeDocumentMoniker": "Section7.LoadingRelatedObjects\\PlutoModel.Context.tt",
-              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.Context.tt",
-              "RelativeToolTip": "Section7.LoadingRelatedObjects\\PlutoModel.Context.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-15T13:34:23.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlutoModel.tt",
-              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.tt",
-              "RelativeDocumentMoniker": "Section7.LoadingRelatedObjects\\PlutoModel.tt",
-              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.tt",
-              "RelativeToolTip": "Section7.LoadingRelatedObjects\\PlutoModel.tt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-15T13:34:21.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlutoModel.Designer.cs",
-              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.Designer.cs",
-              "RelativeDocumentMoniker": "Section7.LoadingRelatedObjects\\PlutoModel.Designer.cs",
-              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.Designer.cs",
-              "RelativeToolTip": "Section7.LoadingRelatedObjects\\PlutoModel.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:34:19.946Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlutoModel.edmx.diagram",
-              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.edmx.diagram",
-              "RelativeDocumentMoniker": "Section7.LoadingRelatedObjects\\PlutoModel.edmx.diagram",
-              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\PlutoModel.edmx.diagram",
-              "RelativeToolTip": "Section7.LoadingRelatedObjects\\PlutoModel.edmx.diagram",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-15T13:34:18.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Program.cs",
               "RelativeDocumentMoniker": "Section7.LoadingRelatedObjects\\Program.cs",
               "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Section7.LoadingRelatedObjects\\Program.cs",
               "RelativeToolTip": "Section7.LoadingRelatedObjects\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T13:28:20.455Z",
+              "WhenOpened": "2024-09-15T13:37:32.801Z",
               "EditorCaption": ""
             }
           ]
