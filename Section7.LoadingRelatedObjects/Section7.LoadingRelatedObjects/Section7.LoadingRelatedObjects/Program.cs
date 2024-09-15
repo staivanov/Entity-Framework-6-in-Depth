@@ -9,12 +9,23 @@ namespace Section7.LoadingRelatedObjects
 
         public static void Main()
         {
-            Course course = _plutoContext.Courses.Single(c => c.Id == 2);
+            PrintAllTagsForCourseId(5);
+
+        }
+
+
+        /// <summary>
+        /// Print all tags for certain course by his id.
+        /// </summary>
+        /// <param name="courseId"></param>
+        private static void PrintAllTagsForCourseId(int courseId)
+        {
+            Course course = _plutoContext.Courses.Single(c => c.Id == courseId);
 
             //Lazy loading Tags.
             foreach (Tag tag in course.Tags)
             {
-              WriteLine(tag.Name);
+                WriteLine(tag.Name);
             }
         }
     }

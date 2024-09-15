@@ -17,7 +17,8 @@ namespace Section7.LoadingRelatedObjects
     {
         public Pluto_QueriesEntities()
             : base("name=Pluto_QueriesEntities")
-        {
+        {   //Lazy Loading is turned off.
+            Configuration.LazyLoadingEnabled = false;
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
