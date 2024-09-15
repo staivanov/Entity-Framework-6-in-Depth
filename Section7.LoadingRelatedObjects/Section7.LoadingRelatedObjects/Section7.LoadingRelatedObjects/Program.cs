@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using static System.Console;
 
@@ -10,11 +11,27 @@ namespace Section7.LoadingRelatedObjects
 
         public static void Main()
         {
-            PrintEveryCourseWithHisAuthorNameEagerLoading();           
+            //Demo for Explicit Loading.
+            LoadAllCoursesByAuthorId(1);
+
+        }
+
+
+        /// <summary>
+        /// Gets all existing courses by the given author id.
+        /// </summary>
+        /// <param name="authorId"></param>
+        /// <returns></returns>
+        private static void LoadAllCoursesByAuthorId(int authorId)
+        {   
+            Author author = _plutoContext.Authors
+                .FirstOrDefault(a => a.Id == authorId);
+
+             _plutoContext.Courses.Where(a => a.AuthorId == author.Id).Load();
         }
 
         /// <summary>
-        /// Print every course in the given db with his author name with Eager Loading.
+        /// Prints every course in the given db with his author name with Eager Loading.
         /// </summary>
         private static void PrintEveryCourseWithHisAuthorNameEagerLoading()
         {
@@ -28,7 +45,7 @@ namespace Section7.LoadingRelatedObjects
         }
 
         /// <summary>
-        /// Print every course in the given db with his author name.
+        /// Prints every course in the given db with his author name.
         /// </summary>
         private static void PrintEveryCourseWithHisAuthorName()
         {   //N+1 problem demo.
@@ -41,7 +58,7 @@ namespace Section7.LoadingRelatedObjects
         }
 
         /// <summary>
-        /// Print all tags for certain course by his id.
+        /// Prints all tags for certain course by his id.
         /// </summary>
         /// <param name="courseId"></param>
         private static void PrintAllTagsForCourseId(int courseId)
