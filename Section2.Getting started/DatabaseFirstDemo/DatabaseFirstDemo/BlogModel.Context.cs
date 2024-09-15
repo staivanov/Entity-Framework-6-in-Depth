@@ -12,9 +12,15 @@ namespace DatabaseFirstDemo
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-    
+
+    /// <summary>
+    /// Class <c>DbFirstDemoEntities</c> is an object representing the database "DbFirstDemo".
+    /// </summary>
     public partial class DbFirstDemoEntities : DbContext
     {
+        /// <summary>
+        /// Create a new instance of DbFirstDemoEntities.
+        /// </summary>
         public DbFirstDemoEntities()
             : base("name=DbFirstDemoEntities")
         {
@@ -24,7 +30,10 @@ namespace DatabaseFirstDemo
         {
             throw new UnintentionalCodeFirstException();
         }
-    
+
+        /// <summary>
+        /// Table Posts in the database "DbFirstDemo".
+        /// </summary>
         public virtual DbSet<Post> Posts { get; set; }
     }
 }

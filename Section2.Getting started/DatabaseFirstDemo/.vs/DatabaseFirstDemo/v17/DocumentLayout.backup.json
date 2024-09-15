@@ -1,7 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Section2.Getting started\\DatabaseFirstDemo\\",
-  "Documents": [],
+  "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section2.getting started\\databasefirstdemo\\databasefirstdemo\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section2.getting started\\databasefirstdemo\\databasefirstdemo\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section2.getting started\\databasefirstdemo\\databasefirstdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C373E496-A714-4CFD-AE10-4D0A69FBC5A7}|DatabaseFirstDemo\\DatabaseFirstDemo.csproj|solutionrelative:databasefirstdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13A319EE-1D8F-45B4-BDD9-960A3F9A424D}|CodeFirstDemo\\CodeFirstDemo.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section2.getting started\\databasefirstdemo\\codefirstdemo\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13A319EE-1D8F-45B4-BDD9-960A3F9A424D}|CodeFirstDemo\\CodeFirstDemo.csproj|solutionrelative:codefirstdemo\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,8 +26,48 @@
       "DocumentGroups": [
         {
           "DockedHeight": 350,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Post.cs",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Post.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstDemo\\Post.cs",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Post.cs",
+              "RelativeToolTip": "DatabaseFirstDemo\\Post.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:51:21.875Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "packages.config",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\packages.config",
+              "RelativeDocumentMoniker": "DatabaseFirstDemo\\packages.config",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\packages.config",
+              "RelativeToolTip": "DatabaseFirstDemo\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-15T16:53:18.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Post.cs",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\CodeFirstDemo\\Post.cs",
+              "RelativeDocumentMoniker": "CodeFirstDemo\\Post.cs",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\CodeFirstDemo\\Post.cs",
+              "RelativeToolTip": "CodeFirstDemo\\Post.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:51:27.43Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
@@ -58,6 +115,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Program.cs",
+              "RelativeDocumentMoniker": "DatabaseFirstDemo\\Program.cs",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section2.Getting started\\DatabaseFirstDemo\\DatabaseFirstDemo\\Program.cs",
+              "RelativeToolTip": "DatabaseFirstDemo\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:41:08.616Z",
+              "EditorCaption": ""
             }
           ]
         },

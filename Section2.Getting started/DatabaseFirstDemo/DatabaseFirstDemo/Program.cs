@@ -19,11 +19,14 @@ namespace DatabaseFirstDemo
                 " injured at least 130 others.",
                 DatePublished = DateTime.Now,
             };
+
             InsertNewPost(latestNewsInGaza);
-
-
         }
 
+        /// <summary>
+        /// Insert a new post into database.
+        /// </summary>
+        /// <param name="newPost">New post to be inserted into the database</param>
         private static void InsertNewPost(Post newPost)
         {
             Post post = new Post()

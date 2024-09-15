@@ -4,9 +4,7 @@
     {
         public static void Main()
         {
-
-
-
+            BlogDbContext blogDbContext = new BlogDbContext();
         }
     }
 }
