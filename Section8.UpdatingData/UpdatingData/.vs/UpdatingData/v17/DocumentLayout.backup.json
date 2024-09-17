@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section8.UpdatingData\\UpdatingData\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9A69276-3F67-4EE5-AE3C-084BE4E2BCD0}|UpdatingData\\UpdatingData.csproj|p:\\ef core\\ef deep dive\\entity-framework-6-in-depth\\section8.updatingdata\\updatingdata\\updatingdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9A69276-3F67-4EE5-AE3C-084BE4E2BCD0}|UpdatingData\\UpdatingData.csproj|solutionrelative:updatingdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 350,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,6 +63,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section8.UpdatingData\\UpdatingData\\UpdatingData\\Program.cs",
+              "RelativeDocumentMoniker": "UpdatingData\\Program.cs",
+              "ToolTip": "P:\\EF Core\\EF Deep Dive\\Entity-Framework-6-in-Depth\\Section8.UpdatingData\\UpdatingData\\UpdatingData\\Program.cs",
+              "RelativeToolTip": "UpdatingData\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T06:50:07.997Z",
+              "EditorCaption": ""
             }
           ]
         },
