@@ -2,6 +2,9 @@ using System.Collections.Generic;
 
 namespace Queries
 {
+    /// <summary>
+    /// Class <c>Author</c> create a new object with additional descriptive properties. 
+    /// </summary>
     public class Author
     {
         /// <summary>
@@ -11,7 +14,6 @@ namespace Queries
         {
             Courses = new HashSet<Course>();
         }
-
         /// <summary>
         /// Gets or sets the id of the author.
         /// </summary>

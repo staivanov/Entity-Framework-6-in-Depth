@@ -1,5 +1,4 @@
-﻿using System;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Linq;
 using static System.Console;
 
@@ -89,8 +88,6 @@ namespace Queries
             {
                 WriteLine(course.Name);
             }
-
-
         }
     }
 }
