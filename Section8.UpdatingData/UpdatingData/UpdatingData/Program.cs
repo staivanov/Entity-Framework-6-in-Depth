@@ -1,4 +1,6 @@
-﻿namespace UpdatingData
+﻿using System.Linq;
+
+namespace UpdatingData
 {
     public class Program
     {
@@ -6,7 +8,9 @@
 
         public static void Main()
         {
-            Author author = _context.Authors.Find(3);
+            Author author = _context.Authors.Include("Courses")
+                .FirstOrDefault(a => a.AuthorID == 1);
+            _context.Courses.RemoveRange(author.Courses);
             _context.Authors.Remove(author);
             _context.SaveChanges();
         }
