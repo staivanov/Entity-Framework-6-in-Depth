@@ -26,5 +26,5 @@ This project give us training about loading datas with 3 different ways: 1. lazy
 #### Section 8. Updating data
 Main focus in this project is on CRUD operations over objects and how changertracker work. 
 
-#### Requirements
+## Requirements
 IDE compatible to open *.csproj files and application who can open files with *.sql extensions.
