@@ -18,7 +18,7 @@ Project OverridingCodeFirst used ADO.NET to connect to PlutoFirstDb and recreate
 FluentAPI project involves C# classes who are tables in db "Pluto_DataAnnotations". when we add migration and update the db. The name of database is "Pluto_DataAnnotations".
 
 #### Section 6. Querying data with LiNQ
-DataQuerying project involves a lot of practical exames how to query data from database "Pluto_Queries".
+DataQuerying projects involves a lot of practical examples how to query data from database "Pluto_Queries".
 
 #### Section 7. Loading related objects
 This project give us training about loading datas with 3 different ways: 1. lazy loading; 2. eazger loading; 3.explicit loading; We also advocates N+1 problem.
